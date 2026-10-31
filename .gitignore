@@ -39,3 +39,10 @@ chiaki.conf
 .cache/
 *.vscode
 site/
+
+# Read-only Chiaki MCP screen bridge build outputs
+/mcp-bridge/build/
+/mcp-bridge/dist/
+/mcp-bridge/*.spec
+/mcp-bridge/__pycache__/
+/mcp-bridge/tests/__pycache__/
